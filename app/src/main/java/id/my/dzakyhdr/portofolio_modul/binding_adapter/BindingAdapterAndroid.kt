@@ -15,7 +15,5 @@ fun TextView.setTitleAndroid(data: Portofolio?) {
 
 @BindingAdapter("androidImage")
 fun ImageView.setAndroidImage(data: Portofolio) {
-    load(data.image){
-        crossfade(1000)
-    }
+    this.setImagerResource(data.images)
 }
