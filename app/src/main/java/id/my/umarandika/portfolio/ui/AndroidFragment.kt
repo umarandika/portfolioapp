@@ -1,4 +1,4 @@
-package id.my.dzakyhdr.portofolio_modul.ui
+package id.my.umarandika.portfolio.ui
 
 import android.net.Uri
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.browser.customtabs.CustomTabsIntent
 import androidx.recyclerview.widget.LinearLayoutManager
-import id.my.dzakyhdr.portofolio_modul.R
-import id.my.dzakyhdr.portofolio_modul.adapter.RVAndroidAdapter
-import id.my.dzakyhdr.portofolio_modul.data.PortofolioData
-import id.my.dzakyhdr.portofolio_modul.databinding.FragmentAndroidBinding
+import id.my.umarandika.portfolio.R
+import id.my.umarandika.portfolio.adapter.RVAndroidAdapter
+import id.my.umarandika.portfolio.data.PortofolioData
+import id.my.umarandika.portfolio.databinding.FragmentAndroidBinding
 
 private const val PORTOFOLIO_LINK = "https://www.dzakyhdr.my.id/"
 

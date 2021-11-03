@@ -1,6 +1,6 @@
-package id.my.dzakyhdr.portofolio_modul.data
+package id.my.umarandika.portfolio.data
 
-import id.my.dzakyhdr.portofolio_modul.R
+import id.my.umarandika.portfolio.R
 
 object PortofolioData {
     /**

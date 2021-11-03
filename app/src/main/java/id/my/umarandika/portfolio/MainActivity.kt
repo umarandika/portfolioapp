@@ -1,11 +1,11 @@
-package id.my.dzakyhdr.portofolio_modul
+package id.my.umarandika.portfolio
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import id.my.dzakyhdr.portofolio_modul.databinding.ActivityMainBinding
+import id.my.umarandika.portfolio.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

@@ -1,12 +1,12 @@
-package id.my.dzakyhdr.portofolio_modul.adapter
+package id.my.umarandika.portfolio.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import id.my.dzakyhdr.portofolio_modul.R
-import id.my.dzakyhdr.portofolio_modul.data.Portofolio
-import id.my.dzakyhdr.portofolio_modul.databinding.ItemAndroidBinding
+import id.my.umarandika.portfolio.R
+import id.my.umarandika.portfolio.data.Portofolio
+import id.my.umarandika.portfolio.databinding.ItemAndroidBinding
 
 class RVAndroidAdapter : RecyclerView.Adapter<RVAndroidAdapter.AndroidViewHolder>() {
 

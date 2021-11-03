@@ -7,32 +7,32 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="id.my.dzakyhdr.portofolio_modul.ui.ProfileFragment"
+        android:name="id.my.umarandika.portfolio.ui.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/androidFragment"
-        android:name="id.my.dzakyhdr.portofolio_modul.ui.AndroidFragment"
+        android:name="id.my.umarandika.portfolio.ui.AndroidFragment"
         android:label="Android"
         tools:layout="@layout/fragment_android" />
     <fragment
         android:id="@+id/experienceFragment"
-        android:name="id.my.dzakyhdr.portofolio_modul.ui.ExperienceFragment"
+        android:name="id.my.umarandika.portfolio.ui.ExperienceFragment"
         android:label="Experience"
         tools:layout="@layout/fragment_experience" />
     <fragment
         android:id="@+id/flutterFragment"
-        android:name="id.my.dzakyhdr.portofolio_modul.ui.FlutterFragment"
+        android:name="id.my.umarandika.portfolio.ui.FlutterFragment"
         android:label="Flutter"
         tools:layout="@layout/fragment_flutter" />
     <fragment
         android:id="@+id/settingFragment"
-        android:name="id.my.dzakyhdr.portofolio_modul.ui.SettingFragment"
+        android:name="id.my.umarandika.portfolio.ui.SettingFragment"
         android:label="Setting"
         tools:layout="@layout/fragment_setting" />
     <fragment
         android:id="@+id/uiUxFragment"
-        android:name="id.my.dzakyhdr.portofolio_modul.ui.UiUxFragment"
+        android:name="id.my.umarandika.portfolio.ui.UiUxFragment"
         android:label="UI/UX"
         tools:layout="@layout/fragment_ui_ux" />
 </navigation>

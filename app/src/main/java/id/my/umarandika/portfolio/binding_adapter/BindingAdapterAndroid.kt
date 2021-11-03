@@ -1,10 +1,9 @@
-package id.my.dzakyhdr.portofolio_modul.binding_adapter
+package id.my.umarandika.portfolio.binding_adapter
 
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
-import coil.load
-import id.my.dzakyhdr.portofolio_modul.data.Portofolio
+import id.my.umarandika.portfolio.data.Portofolio
 
 @BindingAdapter("androidTitle")
 fun TextView.setTitleAndroid(data: Portofolio?) {
@@ -15,5 +14,5 @@ fun TextView.setTitleAndroid(data: Portofolio?) {
 
 @BindingAdapter("androidImage")
 fun ImageView.setAndroidImage(data: Portofolio) {
-    this.setImagerResource(data.images)
+    this.setImageResource(data.image)
 }

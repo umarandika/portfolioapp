@@ -1,4 +1,4 @@
-package id.my.dzakyhdr.portofolio_modul.data
+package id.my.umarandika.portfolio.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
